@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.header {
+  font-family: Georgia, sans-serif;
+  height: 80px;
+  line-height: 80px;
+  background: #1890ff;
+  padding-left: 100px;
+  font-size: 25px;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.leftMenu, .rightContent{
+  display: inline-block;
+}
+.leftMenu{
+  float: left;
+  width: 260px;
+  background: #eae5e5;
+  position: fixed;
+  margin-top: 80px;
+}
+.rightContent{
+  margin-left: 270px;
+  padding-left: 20px;
+  padding-top: 100px;
+}
+.info ul li{
+  list-style: none;
+  margin-left: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+ul li{
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+ul li a{
+  color: black;
+}
+.activeLi{
+  background: #d6e2ec;
+}
+textarea{
+  width: 100%;
+  resize: none;
+}
